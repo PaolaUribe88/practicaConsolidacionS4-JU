@@ -1,0 +1,87 @@
+#cuerpo{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+h1{
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    background-image: linear-gradient(blueviolet 50%, pink 100%);
+    border-radius: 10px;
+    color: antiquewhite;
+    padding: 20px;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+}
+.form1{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(208, 242, 208);
+    border: 2px solid rgb(102, 212, 102);
+    border-radius: 20px;
+}
+.form2{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(245, 194, 223);
+    border: 2px solid rgb(243, 131, 200);
+    border-radius: 20px;
+}
+input{
+    border: 2px solid rgb(102, 212, 102);
+    border-radius: 10px;
+}
+#calcular1{
+    margin: 5px; 
+    background-color: rgb(208, 242, 208);
+    color: rgb(102, 212, 102);;
+    border: 2px solid rgb(102, 212, 102);
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+#nomGasto{
+    border: 2px solid rgb(243, 131, 200);
+}
+#cantGasto{
+    border: 2px solid rgb(243, 131, 200);
+}
+#calcular2{
+    margin: 5px; 
+    background-color: rgb(245, 194, 223);
+    color: rgb(243, 131, 200);
+    border: 2px solid rgb(243, 131, 200);
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+#derecha{
+   
+    border-radius: 10px;
+    
+}
+.fondoRegistro1{
+    background-color: #9dc0a2;
+    border: 5px solid rgb(166, 196, 152);
+    border-radius: 10px;
+    margin-bottom:2%;
+}
+.fondoRegistro2{
+    background-color: #d8d7f9;
+    border: 5px solid rgb(167, 167, 233);
+    border-radius: 10px;
+    margin-top:2%;
+}
+.mifooter {
+    width: 100%;
+    margin: 20px;
+    border: 5px solid blueviolet;
+    background-image: linear-gradient(blueviolet 50%, pink 100%);
+  }
+  
+  .mifooter__eltextoreservado {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: white;
+  }
