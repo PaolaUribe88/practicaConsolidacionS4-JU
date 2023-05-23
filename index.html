@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/Bootstrap5.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Presupuesto</title>
+    <title>App-Presupuesto</title>
 </head>
-<body>
+<body onload="asignarEventos()">
     <div class="container" id="cuerpo">
         <div class="row" ><!--1-->
             <div class="col-md-12">
-                <h1>Presupuesto App</h1>
+                <h1>Presupuesto App</h1><br>
             </div>
         </div>    
             <div class="row"><!--2-->
@@ -25,10 +25,10 @@
                                         <div class="col-md-12">
                                             <form action="form" class="form1">
                                                 <div class="mb-3">
-                                                    <label class="form-label" id="presupuesto">Ingresa Presupuesto</label><br>
+                                                    <label class="form-label" id="tituloPresupuesto">Ingresa Presupuesto</label><br>
                                                     <input type="text" id="presupuesto" name="fname" value=""><br><br>
                                                 </div> 
-                                                <button type="button" class="btn" id="calcular1">Calcular</button>
+                                                <button type="button" class="btn" id="btnCalcular">Calcular</button>
                                             </form>
                                             <br>
                                         </div>
@@ -46,7 +46,7 @@
                                                     <label class="form-label">Ingresa la cantidad del Gasto:</label><br>
                                                     <input type="text" id="cantGasto" name="fname" value=""><br><br>
                                                     </div>
-                                                    <button type="button" class="btn" id="calcular2">Añadir Gasto</button>
+                                                    <button type="button" class="btn" id="btnAgregarGasto">Añadir Gasto</button>
                                             </form>
                                         </div>
                                     </div>
@@ -67,6 +67,7 @@
                                                     <div class="col-md-4">
                                                         <p>Saldo</p> 
                                                     </div>  
+                                                    <hr>
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-md-4">
@@ -86,19 +87,26 @@
                                         <div class="col-md-12 fondoRegistro2">
                                             <div class="container">
                                                 <div class="row">
-                                                    <div class="col-md-8">
+                                                    <div class="col-md-6">
                                                         <p>Gasto</p>
                                                     </div>
-                                                    <div class="col-md-4">
+                                                    <div class="col-md-3">
                                                         <p>Valor</p>
                                                     </div>
+                                                    <div class="col-md-3">
+                                                        <p>Acción</p>
+                                                    </div>
+                                                    <hr>
                                                 </div>
                                                 <div class="row">
-                                                    <div class="col-md-8">
-                                                        <p id="parrafoDosGasto">$0</p>
+                                                    <div class="col-md-6">
+                                                        <p id="parrafoNomGasto"></p>
                                                     </div>
-                                                    <div class="col-md-4">
-                                                        <p id="parrafoValor">$0</p>
+                                                    <div class="col-md-3">
+                                                        <p id="parrafoValor"></p>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <p id="parraAccion"></p>
                                                     </div>
                                                 </div>   
                                             </div>   
@@ -109,7 +117,7 @@
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div> <br>
             <div class="row"> 
                 <div class="col-md-12"> 
                     <div class="container">     
@@ -120,6 +128,7 @@
                 </div> 
             </div>
     </div>  
-   
+   <script src="assets/Bootstrap5.3/js/bootstrap.js"></script>
+   <script src="assets/js/script.js"></script>
 </body>
 </html>
