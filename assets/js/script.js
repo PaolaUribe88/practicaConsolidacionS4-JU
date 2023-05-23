@@ -89,6 +89,7 @@ function pintarGastosEliminar(){
         
         unBotonNuevo.innerText = 'Eliminar';
         unBotonNuevo.setAttribute('onclick',`eliminarElemento(${j})`);
+        
 
         // enviamos a los párrafos correspondientes con append
         elParrafoNombreGasto.appendChild(unParrafoTextoNuevo);
@@ -117,7 +118,7 @@ function pintarGastos(){
 
         unBotonNuevo.innerText = '';
         unBotonNuevo.setAttribute('onclick', `eliminarElemento(${i})`);
-
+        unBotonNuevo.setAttribute('class',`fa-solid fa-trash-can`);
         // enviamos a los párrafos correspondientes con append
         elParrafoNombreGasto.appendChild(unParrafoTextoNuevo);
         elParrafoValor.appendChild(unParrafoValorNuevo);
