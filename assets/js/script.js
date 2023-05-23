@@ -81,7 +81,7 @@ function pintarGastosEliminar(){
         let unParrafoTextoNuevo = document.createElement('p');
         let unParrafoValorNuevo = document.createElement('p');
         let unParrafoAccionNuevo= document.createElement('p');
-        let unBotonNuevo = document.createElement('button');
+        let unBotonNuevo = document.createElement('button ');
         // recorremos el arreglo y extraemos nombre
         unParrafoTextoNuevo.innerText = arregloNomGastosEliminar[j];
         // recorremos el arreglo y extraemos valor
@@ -115,7 +115,7 @@ function pintarGastos(){
         // recorremos el arreglo y extraemos valor
         unParrafoValorNuevo.innerText = arregloCantGastos[i];
 
-        unBotonNuevo.innerText = 'Eliminar';
+        unBotonNuevo.innerText = '';
         unBotonNuevo.setAttribute('onclick', `eliminarElemento(${i})`);
 
         // enviamos a los párrafos correspondientes con append
